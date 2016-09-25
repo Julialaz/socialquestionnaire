@@ -4,6 +4,8 @@
         <title>How Do People Use Facebook?</title>
     </head>
     <body>
+        <h1>How Do People Use Facebook?</h1>
+        <h4>Social questionnaire</h4>
         <form action="https://formspree.io/lazurkevich@yahoo.com" method="POST">
         <h3>Section 1: Baseline Data</h3>
         <ol>
@@ -75,12 +77,56 @@
                     <option value="rarely">Rarely</option>
                     <option value="never">Never</option>
                 </select>
-                
             </li>
         </ol>
-        <input type="submit" name="Submit">
-        </form>    
-
-
+        <h3>Section 4: Graph Search</h3>
+        <p>Please put "Yes" or "No". </p>
+        <ol start="11">
+            <li>Do you know what Graph Search is?<br>
+                <input list="know about GS" name="know about GS">
+                <datalist id="know about GS">
+                    <option value="Yes">
+                    <option value="No">
+                </datalist>
+            </li>
+            <li>If you do know what Graph Search is, have you used it?<br>
+                <input list="using of GS" name="using of GS">
+                <datalist id="using of GS">
+                    <option value="Yes">
+                    <option value="No">
+                </datalist>
+            </li>
+         </ol>
+         <h3>Section 5: Privacy</h3>
+         <p>Please put "Yes" or "No".</p>
+         <ol start="13">
+            <li>Are you friends with your boss on Facebook?<br>
+                <input list="friends with boss" name="friends with boss">
+                <datalist id="friends with boss">
+                    <option value="Yes">
+                    <option value="No">
+                </datalist>
+            </li>
+            <li>Are you friends with your parents on Facebook?<br>
+                <input list="friends with parents" name="friends with parents">
+                <datalist id="friends with parents">
+                    <option value="Yes">
+                    <option value="No">
+                </datalist>
+            </li>
+        </ol>
+        <h3>Section 6: Best and Worst Facebook Experiences</h3>
+        <p>These are a free form text questions. You are able to enter in whatever you want.</p>
+        <ol start="15">
+            <li>What was the best thing that has happened to you as a result of Facebook use?<br>
+                <textarea name="best thing hapanned" rows="5" cols="50">Please describe here.</textarea>
+            </li>   
+            <li>What was the worst thing that has happened to you as a result of Facebook use?<br>
+            <textarea name="worst thing happaned" rows="5" cols="50">Please describe here.</textarea>
+            </li>
+        </ol>
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
     </body>
 </html>
