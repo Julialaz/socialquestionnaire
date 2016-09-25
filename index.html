@@ -8,6 +8,11 @@
         <h1>How Do People Use Facebook?</h1>
         <h4>Social questionnaire</h4>
         <form action="https://formspree.io/lazurkevich@yahoo.com" method="POST">
+        <p>Please enter your gender and age:</p>
+        <label for="gender">Gender:</label><br>
+        <input type="text" name="gender" id="gender" autofocus="autofocus" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" id="age" min="1" max="150" required><br>
         <h3>Section 1: Baseline Data</h3>
         <ol>
             <li>How many Facebook friends do you have?<br>
@@ -120,10 +125,10 @@
         <p>These are a free form text questions. You are able to enter in whatever you want.</p>
         <ol start="15">
             <li>What was the best thing that has happened to you as a result of Facebook use?<br>
-                <textarea name="best thing hapanned" rows="5" cols="50">Please describe here.</textarea>
+                <textarea name="best thing hapanned" rows="5" cols="50" placeholder="Please describe here."></textarea>
             </li>   
             <li>What was the worst thing that has happened to you as a result of Facebook use?<br>
-            <textarea name="worst thing happaned" rows="5" cols="50">Please describe here.</textarea>
+            <textarea name="worst thing happaned" rows="5" cols="50" placeholder="Please describe here."></textarea>
             </li>
         </ol>
         <input type="submit" name="Submit" value="Submit">
@@ -131,13 +136,13 @@
         </form>
         <form action="https://formspree.io/lazurkevich@yahoo.com" method="POST">
         <fieldset>
-            <legend>Please feel free to contact us if you have any questions or comments</legend>
+            <legend>Please feel free to contact us if you have any questions or comments.</legend>
             <label for="name">Name:</label><br>
-            <input type="text" name="name" id="name" required><br>
+            <input type="text" name="name" id="name" placeholder="Your name" required><br>
             <label for="email">Email:</label><br>
-            <input type="email" name="email" id="email" required><br>
+            <input type="email" name="email" id="email" placeholder="Your email" required><br>
             <label for="questions">Questions or comments:</label><br>
-            <textarea name="questions" id="questions" rows="5" cols="50" required></textarea><br>
+            <textarea name="questions" id="questions" rows="5" cols="50" placeholder="Your questions or comments" required></textarea><br>
             <input type="submit" name="Submit" value="Submit">
             <input type="reset" value="Reset">
         </fieldset>
