@@ -87,88 +87,110 @@
         <h3>Section 2: Usage Trends</h3>
         <ol start="5">
             <li>Are you currently using Facebook more or less than you did six months ago?<br>
-                <select name="currently using">
-                    <option value="more">More</option>
-                    <option value="less" selected>Less</option>
-                </select>
+                <label>
+                    <select name="currently using">
+                        <option value="more">More</option>
+                        <option value="less" selected>Less</option>
+                    </select>
+                </label> 
             </li>
             <li>Do you think you will be using Facebook more or less than you do currently 6 months from now?<br>
-                <select name="future using">
-                    <option value="more">More</option>
-                    <option value="less" selected>Less</option>
-                </select>
+                <label>
+                    <select name="future using">
+                        <option value="more">More</option>
+                        <option value="less" selected>Less</option>
+                    </select>
+                </label>
             </li>
         </ol>  
         <h3>Section 3: How You Use Facebook</h3>
         <ol start="8">
             <li> Do you use the video chat option for Facebook messaging?<br>
-                <select name="using of video chat option">
-                    <option value="often">Often</option>
-                    <option value="sometimes" selected>Sometimes</option>
-                    <option value="didn't know it existed">Didn't know it existed</option>
-                </select>
+                <label>
+                    <select name="using of video chat option">
+                        <option value="often">Often</option>
+                        <option value="sometimes" selected>Sometimes</option>
+                        <option value="didn't know it existed">Didn't know it existed</option>
+                    </select>
+                </label>
             </li>
             <li>Do you use hashtags on Facebook?<br>
-                <select name="hashtags">
-                    <option value="often">Often</option>
-                    <option value="sometimes" selected>Sometimes</option>
-                    <option value="rarely">Rarely</option>
-                    <option value="never">Never</option>
-                </select>
+                <label>
+                    <select name="hashtags">
+                        <option value="often">Often</option>
+                        <option value="sometimes" selected>Sometimes</option>
+                        <option value="rarely">Rarely</option>
+                        <option value="never">Never</option>
+                    </select>
+                </label>
             </li>
             <li>Do you ever ask your friends questions on Facebook?<br>
-                <select name="asking of questions">
-                    <option value="often">Often</option>
-                    <option value="sometimes" selected>Sometimes</option>
-                    <option value="rarely">Rarely</option>
-                    <option value="never">Never</option>
-                </select>
+                <label>
+                    <select name="asking of questions">
+                        <option value="often">Often</option>
+                        <option value="sometimes" selected>Sometimes</option>
+                        <option value="rarely">Rarely</option>
+                        <option value="never">Never</option>
+                    </select>
+                </label>
             </li>
         </ol>
         <h3>Section 4: Graph Search</h3>
         <p>Please put "Yes" or "No". </p>
         <ol start="11">
             <li>Do you know what Graph Search is?<br>
-                <input list="knowaboutgs" name="knowaboutgs">
-                <datalist id="knowaboutgs">
-                    <option value="Yes">
-                    <option value="No">
-                </datalist>
+                <label>
+                    <input list="knowaboutgs" name="knowaboutgs">
+                    <datalist id="knowaboutgs">
+                        <option value="Yes">
+                        <option value="No">
+                    </datalist>
+                </label>
             </li>
             <li>If you do know what Graph Search is, have you used it?<br>
-                <input list="usingofgs" name="usingofgs">
-                <datalist id="usingofgs">
-                    <option value="Yes">
-                    <option value="No">
-                </datalist>
+                <label>
+                    <input list="usingofgs" name="usingofgs">
+                    <datalist id="usingofgs">
+                        <option value="Yes">
+                        <option value="No">
+                    </datalist>
+                </label>
             </li>
          </ol>
          <h3>Section 5: Privacy</h3>
          <p>Please put "Yes" or "No".</p>
          <ol start="13">
             <li>Are you friends with your boss on Facebook?<br>
-                <input list="friendswithboss" name="friendswithboss">
-                <datalist id="friendswithboss">
-                    <option value="Yes">
-                    <option value="No">
-                </datalist>
+                <label>
+                    <input list="friendswithboss" name="friendswithboss">
+                    <datalist id="friendswithboss">
+                        <option value="Yes">
+                        <option value="No">
+                    </datalist>
+                </label>
             </li>
             <li>Are you friends with your parents on Facebook?<br>
-                <input list="friendswithparents" name="friendswithparents">
-                <datalist id="friendswithparents">
-                    <option value="Yes">
-                    <option value="No">
-                </datalist>
+                <label>
+                    <input list="friendswithparents" name="friendswithparents">
+                    <datalist id="friendswithparents">
+                        <option value="Yes">
+                        <option value="No">
+                    </datalist>
+                </label>
             </li>
         </ol>
         <h3>Section 6: Best and Worst Facebook Experiences</h3>
         <p>These are a free form text questions. You are able to enter in whatever you want.</p>
         <ol start="15">
             <li>What was the best thing that has happened to you as a result of Facebook use?<br>
-                <textarea name="best thing hapanned" rows="5" cols="50" placeholder="Please describe here."></textarea>
+                <label>
+                    <textarea name="best thing hapanned" rows="5" cols="50" placeholder="Please describe here."></textarea>
+                </label>
             </li>   
             <li>What was the worst thing that has happened to you as a result of Facebook use?<br>
-            <textarea name="worst thing happaned" rows="5" cols="50" placeholder="Please describe here."></textarea>
+                <label>
+                    <textarea name="worst thing happaned" rows="5" cols="50" placeholder="Please describe here."></textarea>
+                </label>
             </li>
         </ol>
         <input type="submit" name="Submit" value="Submit">
